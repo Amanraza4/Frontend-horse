@@ -32,6 +32,23 @@ header{
     padding: 15px;
 }
 
+.space-set{
+    margin-top: -160px;
+}
+
+::placeholder{
+    color: #787171;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-left: 20px;
+}
+
+.img-set{
+    margin-top: 20px;
+}
+
 .li-set{
     display: flex;
     flex-direction: row;
@@ -66,14 +83,14 @@ header{
     background-color: white;
     border-color:  #F8574E;
     border-radius: 9px;
-    padding-top: 18px;
-    padding-bottom: 12px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     padding-right: 110px;
 }
 
 .button-1{
     border-radius: 9px;
-    padding: 9px;
+    padding: 16px;
     font-family:'Recoleta-Bold', "Cooper Black", serif;
     font-weight: 700;
     font-size: 23px;
@@ -112,9 +129,7 @@ li{
     margin: 0 300px;
 }
 
-::placeholder {
-    color:#534D4C;
-}
+/* section 2 styling starts */
 
 .section-2color{
     background-color: #F8574E;
@@ -155,6 +170,7 @@ li{
     padding-top: 20px;
     padding-bottom: 13px;
     padding-left: 30px;
+    padding-right: 55px;
 }
 
 .grid-h4{
@@ -164,6 +180,15 @@ li{
     font-weight: 400;
     line-height: 24px;
     padding-left: 30px;
+    width: 325px;
+}
+
+.set-featuring{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .featuring{
@@ -173,7 +198,6 @@ li{
     font-weight: 400;
     line-height: 17px;
     padding-left: 30px;
-    padding-top: 20px;
 }
 
 .article{
@@ -184,6 +208,11 @@ li{
     line-height: 17px;
     text-align: end;
     padding-bottom: 10px;
+    margin-left: 115px;
+}
+
+.arrow{
+    padding-right: 20px;
 }
 
 .picture{
@@ -197,11 +226,21 @@ li{
     color: #FEFBF5;
     font-size: 20px;
     line-height: 30px;
-    font-weight: 400;
-    padding-right: 351px;
-    padding-bottom: 140px;
-    padding-top: 25px;    
+    font-weight: 400;   
 }
+
+.view-set{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding-top: 35px;
+    padding-bottom: 100px;
+    padding-right: 350px;
+}
+
+/* section 2 styling ends */
+
+/* section 3 styling starts */
 
 .section-3color{
     background-color: #164993;
@@ -219,11 +258,20 @@ li{
     padding-bottom: 40px;
 }
 
+.six-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* section 3 styling ends */
+
+/* section 4 styling starts */
+
 .section-4color{
     background-color: #FEFBF5;
     display: flex;
     justify-content: center;
-
 }
 
 .color-div{
@@ -272,6 +320,10 @@ li{
     padding: 40px;
 }
 
+/* section 4 styling ends */
+
+/* section 5 styling starts */
+
 .section-5color{
     background-color: white;
     display: flex;
@@ -290,6 +342,9 @@ li{
     color: #164993;
 }
 
+/* section 5 styling ends */
+
+/* foteer styling starts */
 .footer{
     background-color: #164993;
     padding-bottom: 25px;
@@ -305,12 +360,7 @@ li{
     margin-left: 300px;
 }
 
-.six-box{
-    display: flex;
-    justify-content: center;
-    padding-top: 40px;
-}
-
+/* footer styling ends */
 
 /* For Mobile Devices */
 
